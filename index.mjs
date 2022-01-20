@@ -3,7 +3,7 @@ import express from 'express';
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('I am Express.js server')
+    res.send('I am Express.js server powered by Heroku continuous integration')
 })
 app.get('/water', (req, res) => {
     res.send('here is your water 🐳')
